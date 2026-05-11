@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>A bird's eye view of number Theory</title>
+
+  <introduction>
+    <p> An overview of some of the main topics of number theory.. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-name.ptx" />
+
+</chapter>
