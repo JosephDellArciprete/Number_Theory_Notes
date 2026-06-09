@@ -15,8 +15,8 @@ var ptx_lunr_docs = [
   "url": "sec-section-name.html",
   "type": "Section",
   "number": "1.1",
-  "title": "A better title",
-  "body": " A better title  Filler text.  "
+  "title": "The Natural Numbers",
+  "body": " The Natural Numbers  Filler text lol.  "
 },
 {
   "id": "backmatter-2",
