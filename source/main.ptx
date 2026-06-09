@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>Notes on Number Theory</title>
-    <subtitle>A study on number theory</subtitle>
+    <title>Big book of mathematics</title>
+    <subtitle>Notes of a boomer trying to relearn mathematics</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
