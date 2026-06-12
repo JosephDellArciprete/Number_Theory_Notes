@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
-<chapter xml:id="ch-1 Metric Spaces">
-    <title>1 Metric Spaces</title>
+<chapter xml:id="metric_spaces" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Metric Spaces</title>
 
     <introduction>
         <p>
-            We study Metric Spaces.
+            Metric spaces yo.
         </p>
     </introduction>
-
+    <!-- include sections -->
     <xi:include href="open_and_closed.ptx"/>
 </chapter>

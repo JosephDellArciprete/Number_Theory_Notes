@@ -26,7 +26,7 @@
     <part xml:id="part-Topology-1">
       <title>Topology 1</title>
       
-      <xi:include href="./topology_1/metric_spaces/open_and_closed.ptx" />
+      <xi:include href="./topology_1/metric_spaces/metric_space.ptx" />
 
      
     
