@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="number_systems" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Number Systems</title>
+
+    <introduction>
+        <p>
+            Some very basic concepts of number systems.
+        </p>
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="natural_numbers.ptx"/>
+</chapter>

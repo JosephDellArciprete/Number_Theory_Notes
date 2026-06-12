@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-1 Metric Spaces">
+    <title>1 Metric Spaces</title>
+
+    <introduction>
+        <p>
+            We study Metric Spaces.
+        </p>
+    </introduction>
+
+    <xi:include href="open_and_closed.ptx"/>
+</chapter>

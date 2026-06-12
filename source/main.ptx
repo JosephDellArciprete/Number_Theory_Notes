@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
+
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
@@ -12,10 +14,24 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
-    
+     <part xml:id="part-Foundations">
+      <title>Foundations</title>
+      
+      <xi:include href="./foundations/basic_sets/set_theory.ptx" />
 
-    <!-- Include backmatter -->
+      <xi:include href="./foundations/numbers_systems/number_systems.ptx" />
+     
+    </part>
+
+    <part xml:id="part-Topology-1">
+      <title>Topology 1</title>
+      
+      <xi:include href="./topology_1/metric_spaces/open_and_closed.ptx" />
+
+     
+    
+    </part>
+  
     <xi:include href="./backmatter.ptx" />
 
   </book>

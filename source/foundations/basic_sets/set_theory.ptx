@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="set_theory" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Set Theory</title>
+
+    <introduction>
+        <p>
+            Some very basic concepts of set theory.
+        </p>
+    </introduction>
+    <!-- include sections -->
+    <xi:include href="sets.ptx"/>
+    <xi:include href="relations.ptx"/>
+    <xi:include href="functions.ptx"/>
+</chapter>
