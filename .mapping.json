@@ -1,1 +1,1 @@
-{"source/main.ptx": ["my-great-book", "frontmatter", "front-colophon", "ch-chapter-title", "sec-section-name", "backmatter"]}
+{"source/main.ptx": ["my-great-book", "frontmatter", "front-colophon", "part-Foundations", "part-Topology-1", "backmatter"], "source/foundations/basic_sets/set_theory.ptx": ["set_theory", "sets", "relations", "functions"], "source/foundations/numbers_systems/number_systems.ptx": ["number_systems", "natural_numbers"], "source/topology_1/metric_spaces/open_and_closed.ptx": ["open_and_closed"]}

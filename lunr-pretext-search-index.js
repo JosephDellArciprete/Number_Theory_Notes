@@ -10,13 +10,49 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "sec-section-name",
+  "id": "sets",
   "level": "1",
-  "url": "sec-section-name.html",
+  "url": "sets.html",
   "type": "Section",
   "number": "1.1",
-  "title": "The Natural Numbers",
-  "body": " The Natural Numbers  Filler text lol.  "
+  "title": "Sets",
+  "body": " Sets  Filler text lol.  "
+},
+{
+  "id": "relations",
+  "level": "1",
+  "url": "relations.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Relations",
+  "body": " Relations  Filler text lol.  "
+},
+{
+  "id": "functions",
+  "level": "1",
+  "url": "functions.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Functions",
+  "body": " Functions  Filler text lol.  "
+},
+{
+  "id": "natural_numbers",
+  "level": "1",
+  "url": "natural_numbers.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Natural Numbers",
+  "body": " Natural Numbers  Filler text lol.  "
+},
+{
+  "id": "open_and_closed",
+  "level": "1",
+  "url": "open_and_closed.html",
+  "type": "Section",
+  "number": "1",
+  "title": "Open and Closed Sets",
+  "body": " Open and Closed Sets  Filler text lol.  "
 },
 {
   "id": "backmatter-2",
