@@ -50,7 +50,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "open_and_closed.html",
   "type": "Section",
-  "number": "1",
+  "number": "3.1",
   "title": "Open and Closed Sets",
   "body": " Open and Closed Sets  Filler text lol.  "
 },
