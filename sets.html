@@ -102,7 +102,16 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="set_theory.html" class="internal"><span class="codenumber">1</span> <span class="title">Set Theory</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Sets</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Sets</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sets.html#subsec_sets_and_subsets" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Sets and Subsets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sets.html#subsec-set_operations" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Set Operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sets.html#subsec-algebra_of_sets" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Algebra of Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sets.html#subsec-generalized_operations" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Generalized Operations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sets.html#subsec-product_sets" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Product Sets</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="relations.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Relations</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="functions.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Functions</span></a></div></li>
 </ul>
@@ -127,9 +136,108 @@ eBookConfig.enable_chatcodes =  false;
 <h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sets</span>
 </h2>
-<div class="para" id="sets-2">Filler text lol.<div class="autopermalink" data-description="Paragraph"><a href="#sets-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="subsection" id="subsec_sets_and_subsets">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sets and Subsets</span>
+</h3>
+<div class="para" id="subsec_sets_and_subsets-2">Sets are determined <em class="emphasis">uniquely</em> by their elements. The primitive, undefined concept in set theory is that of <em class="emphasis">membership</em>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Section 1.1: Sets"><a href="#sets" title="Copy heading and permalink for Section 1.1: Sets" aria-label="Copy heading and permalink for Section 1.1: Sets">🔗</a></div>
+<article class="definition definition-like" id="def-Set"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="def-Set-1-1">
+<div class="para">A set is a collection of objects, called the elements of the set. To denote an element <span class="process-math">\(x\)</span> is a member of a set <span class="process-math">\(A\)</span> we write <span class="process-math">\(x \in A\text{.}\)</span> If <span class="process-math">\(x\)</span> is not an element of <span class="process-math">\(A\)</span> we write <span class="process-math">\(x \not\in A\text{.}\)</span> By definition a set is totally determined by its elements, so two sets are equal if and only if they have the same elements:</div>
+<div class="displaymath process-math" id="def-Set-1-1-7">
+\begin{equation*}
+A = B \iff \forall x (x \in A \iff x \in B)\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-Set-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.1.1"><a href="#def-Set" title="Copy heading and permalink for Definition 1.1.1" aria-label="Copy heading and permalink for Definition 1.1.1">🔗</a></div>
+</article>
+<div class="para" id="subsec_sets_and_subsets-4">As mentioned above the key concept is that of membership, we do not care about repeats of element nor of the order of the elements. The set of US presidents between 1789 to 2026 is the same if we list the in ascending order, descending order, or if we repeat some of the presidents in our description of the set<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec_sets_and_subsets-5">We immediately come to another simple concept for out next definition.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-Subset"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="def-Subset-1-1">
+<div class="para">If A and B are sets we say that A is a subset of B, written <span class="process-math">\(A \subseteq B\text{,}\)</span> if every element of A is also an element of B, that is:</div>
+<div class="displaymath process-math" id="def-Subset-1-1-2">
+\begin{equation*}
+A \subseteq B \iff \forall x (x \in A \implies x \in B)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-Subset-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.1.2"><a href="#def-Subset" title="Copy heading and permalink for Definition 1.1.2" aria-label="Copy heading and permalink for Definition 1.1.2">🔗</a></div>
+</article>
+<div class="para" id="subsec_sets_and_subsets-7">We must not abuse the the concepts of set membership too much though, consider <em class="alert">Russel’s Paradox</em>, named after logician Bertrand Russell.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="warning remark-like" id="subsec_sets_and_subsets-8"><h4 class="heading">
+<span class="type">Warning</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Russell’s Paradox.</span>
+</h4>
+<div class="para" id="subsec_sets_and_subsets-8-2">Let <span class="process-math">\(R\)</span> be the set of all sets <span class="process-math">\(A\)</span> such that <span class="process-math">\(A \not\in A\text{.}\)</span> Is <span class="process-math">\(R \in R\text{?}\)</span> One the one hand if <span class="process-math">\(R \in R\)</span> then by definition, <span class="process-math">\(R \not\in R\text{.}\)</span> However if <span class="process-math">\(R \not\in R\)</span> again by definition <span class="process-math">\(R \in R\text{.}\)</span> So in either case we get a contradiction. Hence R is not a well defined set.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Warning 1.1.3: Russell’s Paradox"><a href="#subsec_sets_and_subsets-8" title="Copy heading and permalink for Warning 1.1.3: Russell’s Paradox" aria-label="Copy heading and permalink for Warning 1.1.3: Russell’s Paradox">🔗</a></div>
+</article>
+<div class="para logical" id="subsec_sets_and_subsets-9">
+<div class="para">One way to avoid such problems is to have a well defined universal set <span class="process-math">\(U\)</span> and define a subsets of this set by defining a valid property that defines a subset. Particular for a set <span class="process-math">\(U\)</span> and a <em class="emphasis">predicate</em> <span class="process-math">\(p(x)\)</span> on <span class="process-math">\(U\text{,}\)</span> i.e a valid statement that is true of false, then:</div>
+<div class="displaymath process-math" id="subsec_sets_and_subsets-9-6">
+\begin{equation*}
+\{ x \in U : p(x) \}
+\end{equation*}
+</div>
+<div class="para">Is a subset on <span class="process-math">\(U\text{,}\)</span> this is known as <em class="emphasis">predicate form</em>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec_sets_and_subsets-10">
+<div class="para">Another easy to define a set is simply to list its elements, straightforward but obviously not often feasible.</div>
+<div class="displaymath process-math" id="subsec_sets_and_subsets-10-1">
+\begin{equation*}
+\{ \text{element 1}, \text{element 2}, \ldots, \text{last element} \}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec_sets_and_subsets-11">On the other hand we also have the <em class="emphasis">empty set</em>, denoted <span class="process-math">\(\emptyset\text{,}\)</span> the set containing no elements.<div class="autopermalink" data-description="Paragraph"><a href="#subsec_sets_and_subsets-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.1.1: Sets and Subsets"><a href="#subsec_sets_and_subsets" title="Copy heading and permalink for Subsection 1.1.1: Sets and Subsets" aria-label="Copy heading and permalink for Subsection 1.1.1: Sets and Subsets">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-set_operations">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Set Operations</span>
+</h3>
+<div class="para" id="subsec-set_operations-2">filler<div class="autopermalink" data-description="Paragraph"><a href="#subsec-set_operations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.1.2: Set Operations"><a href="#subsec-set_operations" title="Copy heading and permalink for Subsection 1.1.2: Set Operations" aria-label="Copy heading and permalink for Subsection 1.1.2: Set Operations">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-algebra_of_sets">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Algebra of Sets</span>
+</h3>
+<div class="para" id="subsec-algebra_of_sets-2">fillers<div class="autopermalink" data-description="Paragraph"><a href="#subsec-algebra_of_sets-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.1.3: Algebra of Sets"><a href="#subsec-algebra_of_sets" title="Copy heading and permalink for Subsection 1.1.3: Algebra of Sets" aria-label="Copy heading and permalink for Subsection 1.1.3: Algebra of Sets">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-generalized_operations">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Generalized Operations</span>
+</h3>
+<div class="para" id="subsec-generalized_operations-2">filler lol<div class="autopermalink" data-description="Paragraph"><a href="#subsec-generalized_operations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.1.4: Generalized Operations"><a href="#subsec-generalized_operations" title="Copy heading and permalink for Subsection 1.1.4: Generalized Operations" aria-label="Copy heading and permalink for Subsection 1.1.4: Generalized Operations">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-product_sets">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Product Sets</span>
+</h3>
+<div class="para" id="subsec-product_sets-2">pootis<div class="autopermalink" data-description="Paragraph"><a href="#subsec-product_sets-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.1.5: Product Sets"><a href="#subsec-product_sets" title="Copy heading and permalink for Subsection 1.1.5: Product Sets" aria-label="Copy heading and permalink for Subsection 1.1.5: Product Sets">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 1.1: Sets"><a href="#sets" title="Copy heading and permalink for Section 1.1: Sets" aria-label="Copy heading and permalink for Section 1.1: Sets">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
