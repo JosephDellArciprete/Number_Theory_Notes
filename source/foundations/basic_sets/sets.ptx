@@ -1,8 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sets" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Sets</title>
+    <title>Sets</title>
 
-  <p>Filler text lol.</p>
+    <subsection xml:id="subsec_sets_and_subsets">
+        <title>Sets and Subsets</title>
 
+        <p>
+            Sets are determined <em>uniquely</em> by their elements.
+            The primitive, undefined concept in set theory is that of
+            <em>membership</em>.
+        </p>
+
+        <definition xml:id="def-Set">
+            <statement>
+                <p>
+                    A set is a collection of objects, called the elements of the
+                    set.
+                    To denote an element <m>x</m> is a member of a set <m>A</m>
+                    we write <m>x \in A</m>.
+                    If <m>x</m> is not an element of <m>A</m> we write
+                    <m>x \not\in A</m>.
+                    By definition a set is totally determined by its elements,
+                    so two sets are equal if and only if they have the same
+                    elements:
+                    <md>
+                        A = B \iff \forall x (x \in A \iff x \in B)
+                    </md>.
+                </p>
+            </statement>
+        </definition>
+
+        <p>
+            As mentioned above the key concept is that of membership, we do not
+            care about repeats of element nor of the order of the elements.
+            The set of US presidents between 1789 to 2026 is the same if we list
+            the in ascending order, descending order, or if we repeat some of
+            the presidents in our description of the set
+        </p>
+
+        <p>
+            We immediately come to another simple concept for out next
+            definition.
+        </p>
+
+        <definition xml:id="def-Subset">
+            <statement>
+                <p>
+                    If A and B are sets we say that A is a subset of B, written
+                    <m>A \subseteq B</m>, if every element of A is also an
+                    element of B, that is:
+                    <md>
+                        A \subseteq B \iff \forall x (x \in A \implies x \in B)
+                    </md>
+                </p>
+            </statement>
+        </definition>
+
+        <p>
+            We must not abuse the the concepts of set membership too much
+            though, consider <alert>Russel's Paradox</alert>, named after
+            logician Bertrand Russell.
+        </p>
+
+        <warning>
+            <title>Russell's Paradox</title>
+
+            <p>
+                Let <m>R</m> be the set of all sets <m>A</m> such that
+                <m>A \not\in A</m>.
+                Is <m>R \in R</m>?
+                One the one hand if <m>R \in R</m> then by definition,
+                <m>R \not\in R</m>.
+                However if <m>R \not\in R</m> again by definition
+                <m>R \in R</m>.
+                So in either case we get a contradiction.
+                Hence R is not a well defined set.
+            </p>
+        </warning>
+
+        <p>
+            One way to avoid such problems is to have a well defined universal
+            set <m>U</m> and define a subsets of this set by defining a valid
+            property that defines a subset.
+            Particular for a set <m>U</m> and a <em>predicate</em> <m>p(x)</m>
+            on <m>U</m>, i.e a valid statement that is true of false, then:
+            <md>
+                \{ x \in U : p(x) \}
+            </md>
+            Is a subset on <m>U</m>, this is known as <em>predicate form</em>.
+        </p>
+
+        <p>
+            Another easy to define a set is simply to list its elements,
+            straightforward but obviously not often feasible.
+            <md>
+                \{ \text{element 1}, \text{element 2}, \ldots, \text{last element} \}
+            </md>
+        </p>
+
+        <p>
+            On the other hand we also have the <em>empty set</em>, denoted
+            <m>\emptyset</m>, the set containing no elements.
+        </p>
+        <!--TODO: Theorem: empty set is a subset of allsets-->
+        <!--TODO: Subset relation is transitive-->
+        <!--Strict and proper subsets-->
+        <!--Power set-->
+    </subsection>
+
+    <subsection xml:id="subsec-set_operations">
+        <title>Set Operations</title>
+
+        <p>
+            filler
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-algebra_of_sets">
+        <title>Algebra of Sets</title>
+
+        <p>
+            fillers
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-generalized_operations">
+        <title>Generalized Operations</title>
+
+        <p>
+            filler lol
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-product_sets">
+      <title>Product Sets</title>
+      <p>pootis</p>
+      
+    </subsection>
 </section>
+

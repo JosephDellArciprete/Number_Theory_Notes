@@ -5,7 +5,9 @@
 
     <introduction>
         <p>
-            Some very basic concepts of set theory.
+            Some very basic concepts of set theory. This is meant to review set theory so one can be comfortable reading and manipulating most
+            mathematical objects. This is neither an 'introduction to proofs' type of chapter, we do not explain logic, induction, etc. Nor is
+            it an formal axiomatic study.
         </p>
     </introduction>
     <!-- include sections -->
